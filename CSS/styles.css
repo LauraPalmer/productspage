@@ -1,0 +1,300 @@
+
+/* Body */
+
+body {
+  position: relative;
+  min-height: 100%;
+  background: url(https://aemann2.github.io/social-proof-section-master/images/bg-pattern-top-desktop.svg), url(https://aemann2.github.io/social-proof-section-master/images/bg-pattern-bottom-desktop.svg);
+  background-position: top left, bottom right;
+  background-repeat: no-repeat;
+  padding: 5%;
+  font-family: 'Spartan', sans-serif;
+}
+
+
+/* Top Section */
+
+.top-section {
+  padding: 5%;
+}
+
+
+/* Left-Side Heading */
+
+/* Header Small & Large Text Combined */
+.header-section {
+  float: left;
+  width: 50%;
+}
+
+/* Large Heading Text */
+.heading {
+  color: #511f50;
+  font-family: 'Spartan', sans-serif;
+  font-weight: 700;
+  line-height: 1;
+  text-align: left;
+  font-size: 4rem;
+  width: 75%;
+}
+
+/* Small Heading Text */
+.heading-text {
+  text-align: left;
+  color: #948e92;
+  font-family: 'Spartan', sans-serif;
+  font-weight: 500;
+  width: 75%;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+
+
+
+/* Ratings in Heading */
+
+.rating {
+  background-color: #f7f2f8;
+  border-radius: 10px;
+  width: 600px;
+  padding: 1%;
+}
+
+.ratings-section {
+  float: right;
+  width: 50%;
+}
+
+.rating-text {
+  font-family: 'Spartan', sans-serif;
+  color: #511f50;
+  font-weight: 700;
+  font-size: 1.25rem;
+  text-align: center;
+  padding: 3%;
+}
+
+.rating-2 {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.rating-3 {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+
+
+/* Bottom Section */
+
+.bottom-section {
+  padding: 0 5%;
+  clear: both;
+}
+
+.testimonial {
+  background-color: #511f50;
+  border-radius: 5px;
+  width: 75%;
+  padding: 5%;
+  margin: 1.5%;
+  text-align: left;
+}
+
+.testimonial-text {
+  color: #e5c3e3;
+  padding: 5%;
+  font-family: 'Spartan', sans-serif;
+  text-align: left;
+}
+
+
+.name {
+  font-weight: 700;
+  float: right;
+}
+
+.buyer {
+  color: #b56ba0;
+  font-weight: 500;
+
+}
+
+.profile-photo {
+  border-radius: 50%;
+  padding: 1%;
+}
+
+.profile-text {
+  float: right;
+}
+
+.column {
+  width: 33%;
+  float: left;
+}
+
+.irene {
+  margin-top: 10%;
+}
+
+.anne {
+  margin-top: 20%;
+
+}
+
+.row {
+  margin: 0 -5px;
+  padding: 5%;
+
+}
+
+.attribution {
+  clear: both;
+  padding: 3%;
+  text-align: center;
+}
+
+
+
+
+
+
+
+/* Responsiveness */
+@media only screen and (max-width: 600px) {
+
+  body {
+    padding: 0;
+  }
+
+    .header-section {
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+
+    /* Large Heading Text */
+    .heading {
+      color: #511f50;
+      font-family: 'Spartan', sans-serif;
+      font-weight: 700;
+      line-height: 1.5;
+      text-align: left;
+      font-size: 3rem;
+      text-align: center;
+      width: 100%;
+    }
+
+    /* Small Heading Text */
+    .heading-text {
+      text-align: left;
+      color: #948e92;
+      font-family: 'Spartan', sans-serif;
+      font-size: 15px;
+      font-weight: 500;
+      text-align: center;
+      line-height: 1.5;
+      width: 100%;
+    }
+
+
+
+
+    /* Ratings in Heading */
+
+    .rating {
+      background-color: #f7f2f8;
+      border-radius: 10px;
+      width: 100%;
+      margin: 0;
+      display: block;
+      margin-bottom: 5%;
+
+    }
+
+    .ratings-section {
+      width: 100%;
+      text-align: center;
+      display: block;
+
+    }
+
+    .rating-text {
+      font-family: 'Spartan', sans-serif;
+      color: #511f50;
+      font-weight: 700;
+      font-size: 15px;
+      text-align: center;
+      padding: 3%;
+      display: block;
+    }
+
+    .rating-2 {
+      display: block;
+    }
+
+    .rating-3 {
+      display: block;
+    }
+
+
+
+    /* Bottom Section */
+
+    .bottom-section {
+      display: block;
+      width: 100%;
+    }
+
+    .testimonial {
+      background-color: #511f50;
+      width: 100%;
+      border-radius: 5px;
+      padding: 2%;
+      text-align: left;
+      display: block;
+    }
+
+    .testimonial-text {
+      color: #e5c3e3;
+      padding: 5%;
+      font-family: 'Spartan', sans-serif;
+      text-align: left;
+    }
+
+    .name {
+      font-weight: 700;
+      float: right;
+    }
+
+    .buyer {
+      color: #b56ba0;
+      font-weight: 500;
+    }
+
+    .profile-photo {
+      border-radius: 50%;
+    }
+
+    .profile-text {
+      float: right;
+    }
+
+
+  .column {
+    text-align: center;
+    width: 75%;
+  }
+
+
+    .attribution {
+      text-align: center;
+      padding: 10%;
+    }
+
+    .row {
+      display: block;
+    }
